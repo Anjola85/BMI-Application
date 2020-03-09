@@ -17,6 +17,14 @@ public class BMIModel {
         return  result;
     }
 
+    public String toPound(String w) {
+        this.weight = Double.valueOf(w);
+        double index = Math.round(this.weight/0.454);
+        String result = String.format("%.0f",index);
+        System.out.println(result);
+        return result;
+    }
+
     public static void main(String[] args) {
         BMIModel myModel = new BMIModel("100", "1.8");
         System.out.println(myModel.getBMI());
@@ -26,5 +34,7 @@ public class BMIModel {
 
         myModel = new BMIModel("80", "1.2");
         System.out.println(myModel.getBMI());
+
+        myModel.toPound("77");
     }
 }
