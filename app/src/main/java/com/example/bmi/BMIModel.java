@@ -33,17 +33,17 @@ public class BMIModel {
 
 
 
-    public static void main(String[] args) {
-        BMIModel myModel = new BMIModel("90", "1.8");
-        System.out.println("Your weight is " + myModel.toPound() + " lb, your height is " + myModel.toFeetInch() + ", and your BMI is " + myModel.getBMI());
-
-//        myModel = new BMIModel("45", "1.35");
-//        System.out.println(myModel.getBMI());
+//    public static void main(String[] args) {
+//        BMIModel myModel = new BMIModel("90", "1.8");
+//        System.out.println("Your weight is " + myModel.toPound() + " lb, your height is " + myModel.toFeetInch() + ", and your BMI is " + myModel.getBMI());
 //
-//        myModel = new BMIModel("80", "1.2");
-//        System.out.println(myModel.getBMI());
-
-//        myModel.toPound("77");
-//        myModel.toFeetInch("1.78");
-    }
+////        myModel = new BMIModel("45", "1.35");
+////        System.out.println(myModel.getBMI());
+////
+////        myModel = new BMIModel("80", "1.2");
+////        System.out.println(myModel.getBMI());
+//
+////        myModel.toPound("77");
+////        myModel.toFeetInch("1.78");
+//    }
 }

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BMI</string>
+    <string name="s1">Votre Poids</string>
+    <string name="s2">Votre Taille</string>
+    <string name="s3">CALCULER BMI</string>
+</resources>
