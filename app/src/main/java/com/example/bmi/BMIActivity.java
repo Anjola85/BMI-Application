@@ -23,7 +23,7 @@ public class BMIActivity extends AppCompatActivity {
 
 //        C2M
         BMIModel myModel = new BMIModel(weight, height);
-        String myBMI = myModel.getBMI();
+        String myBMI = "Your weight is " + myModel.toPound() + " lb, your height is " + myModel.toFeetInch() + ", and your BMI is " + myModel.getBMI();
 
 //        Display answer
         ((TextView) findViewById(R.id.answer)).setText(myBMI);
